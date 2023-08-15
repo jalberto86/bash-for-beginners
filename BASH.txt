@@ -87,6 +87,9 @@ Let's try to change to the home directory and back to the workspace
 >> pwd
 
 
+
+
+
 help
 
 
