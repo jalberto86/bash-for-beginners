@@ -1,0 +1,92 @@
+BASH
+
+COMMANDS
+
+Ctrl + r	History of all commands line. Search within the history of commands
+Ctrl + a	Jump to the front of the line
+Ctrl + e	Jumtp to the end
+Ctrl + t	Clear screen	
+clear		Same 
+
+man		Is a manual. We use it lie the help() function
+man bash	Manual bash
+man git		Manual of git
+
+GIT
+
+git init
+git clone
+git status
+git add
+git commit
+git push
+
+TOUCH 		To create files
+Is we touch a file, and it doesn't exist, we create the file.
+
+BASH for beginners
+
+https://www.youtube.com/watch?v=nrfwcbYJZfc&list=PLlrxD0HtieHh9ZhrnEbZKhzk0cetzuX7l&index=1
+
+Why learn bash? You can manipulate very large files. You can do things that would take a prog language like Python or Java way more lines to code
+
+##############################################
+##### 1. Difference between terminal and shell
+##############################################
+
+- Terminal: the environment where you will issue the bash command
+
+##############################################
+##### 2. Help and man
+##############################################
+
+We use help to get info about a function. Let's get help for the change directory function "cd"
+
+>> help cd
+or 
+>> cd --help
+
+```
+cd: cd [-L|[-P [-e]] [-@]] [dir]
+    Change the shell working directory.
+```
+
+The first line is how to use it. Everything inside [] are optional parameters. Anything divided by the | are mutually exclusive parameters.
+Below we have infor about the parameters
+
+```
+
+>> man cd
+
+When we use the man command, it will open a text file in the terminal. So we have to scroll down and to go back to the console, we use "q"
+
+To search for a secction in the manual, either DESCRIPTION, EXAMPLES etc.
+
+>>/EXAMPLES
+
+##############################################
+##### 3. Navigating the terminal
+##############################################
+
+>>pwd 
+
+To get the working directory
+
+>>cd 
+
+To change the working directory
+
+>> whoami
+
+Gets the use that I am logged in with. 
+Let's try to change to the home directory and back to the workspace
+
+>> cd ~
+>> pwd
+>> cd /workspaces/bash-for-beginners
+>> pwd
+
+
+help
+
+
